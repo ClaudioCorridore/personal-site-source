@@ -15,12 +15,13 @@ cache:
 script:
     - cd src
     - npx harp compile
+    - ls -l ../
 deploy:
     repo: ClaudioCorridore/ClaudioCorridore.github.io
     provider: pages
     skip_cleanup: true
     github_token: $GITHUB_TOKEN
-    local_dir: www
+    local_dir: ./www
     target-branch: master
     on:
         branch: master
