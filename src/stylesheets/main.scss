@@ -1,3 +1,18 @@
-.placeholder {
-    content: 'custom';
+$color-coolred: #ff5b5b;
+$color-coolblue: #0c1845;
+
+.coolred {
+    color: $color-coolred;
+}
+
+.bg-coolred {
+    background-color: $color-coolred;
+}
+
+.coolblue {
+    color: $color-coolblue;
+}
+
+.bg-coolblue {
+    background-color: $color-coolblue;
 }

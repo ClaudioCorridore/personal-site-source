@@ -3,13 +3,12 @@ html.no-js
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    title Claudio's site
+    title Andrea's site
     meta(name='description', content='My personal site')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css')
-    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css')
+    link(rel='stylesheet', href='stylesheets/tachyons.min.css')
     link(rel='stylesheet', href='stylesheets/main.css')
-  body
+  body.sans-serif
     <!--[if lt IE 8]>
     p.browsehappy
       | You are using an <strong>outdated</strong> browser.
@@ -17,4 +16,5 @@ html.no-js
       | to improve your experience.
     <![endif]-->
 
-    != yield
+    main#content.w-100
+        != yield
