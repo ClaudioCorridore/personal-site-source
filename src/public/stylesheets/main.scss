@@ -1,5 +1,6 @@
 $color-coolred: #ff5b5b;
 $color-coolblue: #0c1845;
+$color-warmwhite: #f9f9f1;
 
 .coolred {
     color: $color-coolred;
@@ -15,4 +16,12 @@ $color-coolblue: #0c1845;
 
 .bg-coolblue {
     background-color: $color-coolblue;
+}
+
+.bg-warmwhite {
+    background-color: $color-warmwhite;
+}
+
+.b--yellow {
+    border-color: $color-coolblue;
 }
