@@ -15,6 +15,7 @@ cache:
 script:
     - cd src
     - npx harp compile
+    - npx sw-precache@^5 --root=src/www
 deploy:
     repo: ClaudioCorridore/ClaudioCorridore.github.io
     provider: pages
