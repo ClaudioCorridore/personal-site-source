@@ -1,6 +1,8 @@
 {
     "name": "Claudio Corridore",
     "short_name": "cc",
+    "start_url": "/index.html",
+    "orientation": "portrait",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
