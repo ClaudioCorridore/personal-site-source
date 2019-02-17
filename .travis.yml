@@ -15,8 +15,8 @@ cache:
 script:
     - cd src
     - npx harp compile
-    - npx purifycss -m src/www/stylesheets/*.css src/www/index.html > src/www/stylesheets/bundle.css
-    - rm -rf src/www/stylesheets/style.css src/www/stylesheets/tachyons.min.css
+    - npx purifycss -m www/stylesheets/*.css www/index.html > www/stylesheets/bundle.css
+    - rm -rf www/stylesheets/style.css www/stylesheets/tachyons.min.css
     - npx sw-precache@^5 --root=www
 deploy:
     repo: ClaudioCorridore/ClaudioCorridore.github.io
