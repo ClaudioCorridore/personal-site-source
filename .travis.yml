@@ -14,7 +14,7 @@ cache:
 
 script:
     - cd src
-    - npx harp compile
+    - npx harp@^0.34 compile
     - npx purifycss -m www/stylesheets/*.css www/index.html > www/stylesheets/bundle.css
     - rm -rf www/stylesheets/style.css www/stylesheets/tachyons.min.css
     - npx sw-precache@^5 --root=www
